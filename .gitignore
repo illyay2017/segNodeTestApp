@@ -1,2 +1,5 @@
 #variables directory (write keys, etc)
 vars/
+
+#node modules
+node_modules/

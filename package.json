@@ -4,7 +4,8 @@
   "description": "test app for Segment Node.js library",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/illyay2017/segNodeTestApp/issues"
   },
-  "homepage": "https://github.com/illyay2017/segNodeTestApp#readme"
+  "homepage": "https://github.com/illyay2017/segNodeTestApp#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  }
 }
